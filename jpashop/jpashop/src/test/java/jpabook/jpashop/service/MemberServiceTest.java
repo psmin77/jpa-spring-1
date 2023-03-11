@@ -34,7 +34,7 @@ public class MemberServiceTest {
     }
 
     @Test(expected = IllegalStateException.class)
-    public void 중복회원() throws Exception {
+    public void 중복회원_예외() throws Exception {
         //given
         Member member1 = new Member();
         member1.setName("kim");
